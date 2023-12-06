@@ -1,58 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Inconsolata:wght@300&family=Nerko+One&family=Open+Sans:wght@300&family=Poppins:wght@300;400;600;700;800;900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Inconsolata:wght@300&family=Nerko+One&family=Open+Sans:wght@300&family=Poppins:wght@300;400;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
-.naveber{
-    width: 100%;
-    height: 85px;
-  
+.naveber {
+  width: 100%;
+  height: 95px;
+  background-color: #059669;
 }
-.nav{
-    padding: 2rem 3rem;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
+.nav {
+  padding: 2rem 3rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* bar section on */
-.ber ul{
-    display: flex;
-    gap: 10px;
+.ber ul {
+  display: flex;
+  gap: 10px;
 }
-.ber ul li{
-    margin-right: 1rem;
-    list-style: none;
+.ber ul li {
+  margin-right: 1rem;
+  list-style: none;
 }
-.ber ul li a{
-    font-family: 'Poppins', sans-serif; 
-    display: inline-block;
-    text-decoration: none;
-    font-size: 25px;
+.ber ul li a {
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.ber ul li a:hover {
+  color: #ffff;
 }
 
 /* bar section end */
 
 /* logo section on */
 
-.logo{
-  font-size: 2rem;
+.logo {
   cursor: pointer;
   color: rgb(11, 11, 220);
 }
-.logo i{
-  color: #e10f0f;
-}
-.koto{
-  color:red;
+.logo svg:hover {
+  color: red;
 }
 
 /* logo section end */
 
-/* === === */
+/* === Image slider start === */
 
-.w3-button button  {
-  font-size: 30px;
+.mySlides {
+  display: none;
+}
+.w3-left,
+.w3-right,
+.w3-badge {
+  cursor: pointer;
+}
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0;
 }
