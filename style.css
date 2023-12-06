@@ -6,13 +6,11 @@
 .naveber {
   width: 100%;
   height: 95px;
-  background-color: #059669;
+  background-color: rgb(41, 41, 41);
 }
 .nav {
   padding: 2rem 3rem;
   display: flex;
-  text-align: center;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -28,12 +26,13 @@
 .ber ul li a {
   font-family: "Poppins", sans-serif;
   display: inline-block;
+  color: #ffff;
   text-decoration: none;
   font-size: 22px;
 }
 
 .ber ul li a:hover {
-  color: #ffff;
+  color: red;
 }
 
 /* bar section end */
@@ -52,16 +51,25 @@
 
 /* === Image slider start === */
 
-.mySlides {
-  display: none;
+.container {
+  width: 100%;
+  height: 600px;
 }
-.w3-left,
-.w3-right,
-.w3-badge {
-  cursor: pointer;
+.swiper {
+  width: 100%;
+  height: 600px;
 }
-.w3-badge {
-  height: 13px;
-  width: 13px;
-  padding: 0;
+.swiper-slide img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  transition: 2s;
+}
+.swiper .swiper-pagination-bullet {
+  background-color: rgb(9, 238, 162);
+  width: 15px;
+  height: 15px;
+  margin: 0 8px;
 }

@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>Landing page</title>
   </head>
   <body>
@@ -15,7 +19,7 @@
           <svg
             data-v-5306269d=""
             xmlns="http://www.w3.org/2000/svg"
-            height="60"
+            height="50"
             viewBox="0 0 1287 283"
             fill="none"
           >
@@ -86,43 +90,31 @@
         </div>
       </div>
     </div>
-    <hr />
-    <section>
-      <div class="w3-content w3-display-container" style="max-width: 100%">
-        <img
-          class="mySlides"
-          src="./img/_Blue And White Modern Real Estate SEEK Cover Image .png"
-          style="width: 100%"
-        />
-        <img class="mySlides" src="./img/1.png" style="width: 100%" />
-        <img class="mySlides" src="./img/2.png" style="width: 100%" />
-        <div
-          class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
-          style="width: 100%"
-        >
-          <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">
-            &#10094;
+    <div class="container">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img
+              src="./img/_Blue And White Modern Real Estate SEEK Cover Image .png"
+            />
           </div>
-          <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">
-            &#10095;
-          </div>
-          <span
-            class="w3-badge demo w3-border w3-transparent w3-hover-white"
-            onclick="currentDiv(1)"
-          ></span>
-          <span
-            class="w3-badge demo w3-border w3-transparent w3-hover-white"
-            onclick="currentDiv(2)"
-          ></span>
-          <span
-            class="w3-badge demo w3-border w3-transparent w3-hover-white"
-            onclick="currentDiv(3)"
-          ></span>
+          <div class="swiper-slide"><img src="./img/1.png" /></div>
+          <div class="swiper-slide"><img src="./img/2.png" /></div>
         </div>
+        
+        <div class="swiper-pagination"></div>
+        
+        <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
       </div>
+    </div>
+    <section>
+      
     </section>
     <!-- === naveber section end === -->
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
