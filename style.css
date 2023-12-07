@@ -77,3 +77,27 @@
   height: 15px;
   margin: 0 8px;
 }
+
+/* === Image slider end === */
+
+/* === 3rd section start === */
+
+.vid-text {
+  display: flex;
+}
+.text h2 {
+  font-size: 40px;
+  margin: 3rem 15rem 1rem 15rem;
+}
+.text p {
+  font-size: 20px;
+  margin: 0rem 15rem;
+}
+
+.video-wrapper {
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 3rem 7rem 3rem 5rem;
+}
+
+/* === 3rd section end === */
